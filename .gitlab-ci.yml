@@ -1,0 +1,10 @@
+stage
+  - sendToServer
+
+sendIt:
+  stage: sendToServer
+  script:
+   - echo "whoamI"
+   - pwd
+  tags:
+   - synchroParty
