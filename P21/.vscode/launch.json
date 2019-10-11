@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "TestServer",
+            //"server": "http://PC1143HH/SQLSERVER17",
+            //"server": "http://localhost",
+            "server": "http://PC1143HH",        
+            "serverInstance": "bc130_2",
+            "port": 7089,
+            "authentication": "Windows",            
+        }
+    ]
+}

@@ -4,7 +4,8 @@ stages:
 sendIt:
   stage: sendToServer
   script:
-   - echo "whoamI"
+   - whoamI
    - pwd
+   - echo %date% TestPipeline > README.md
   tags:
    - synchroParty
